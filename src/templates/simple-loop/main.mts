@@ -1,5 +1,5 @@
-import { run, claudeCode } from "@ai-hero/sandcastle";
-import { docker } from "@ai-hero/sandcastle/sandboxes/docker";
+import { run, claudeCode } from "@akhilasuraj/sandcastle";
+import { docker } from "@akhilasuraj/sandcastle/sandboxes/docker";
 
 // Simple loop: an agent that picks open GitHub issues one by one and closes them.
 // Run this with: npx tsx .sandcastle/main.mts

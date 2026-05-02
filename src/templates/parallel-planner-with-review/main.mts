@@ -21,8 +21,8 @@
 // Or add to package.json:
 //   "scripts": { "sandcastle": "npx tsx .sandcastle/main.mts" }
 
-import * as sandcastle from "@ai-hero/sandcastle";
-import { docker } from "@ai-hero/sandcastle/sandboxes/docker";
+import * as sandcastle from "@akhilasuraj/sandcastle";
+import { docker } from "@akhilasuraj/sandcastle/sandboxes/docker";
 
 // ---------------------------------------------------------------------------
 // Configuration
