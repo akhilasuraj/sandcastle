@@ -29,6 +29,11 @@ const TEMPLATES: TemplateMetadata[] = [
       "Implements issues one by one, with a code review step after each",
   },
   {
+    name: "sequential-planner-with-review",
+    description:
+      "Plans issues sequentially, implements each with code review before moving to the next",
+  },
+  {
     name: "parallel-planner",
     description:
       "Plans parallelizable issues, executes on separate branches, merges",
