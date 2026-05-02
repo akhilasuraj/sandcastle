@@ -1,6 +1,6 @@
 # @akhilasuraj/sandcastle
 
-## 0.5.7
+## 0.5.8
 
 ### Patch Changes
 
