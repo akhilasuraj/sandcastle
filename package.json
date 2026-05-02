@@ -1,5 +1,5 @@
 {
-  "name": "@ai-hero/sandcastle",
+  "name": "@akhilasuraj/sandcastle",
   "version": "0.5.7",
   "description": "CLI for orchestrating AI agents in isolated sandbox environments",
   "type": "module",
@@ -59,7 +59,10 @@
   "packageManager": "npm@10.9.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattpocock/sandcastle"
+    "url": "https://github.com/akhilasuraj/sandcastle"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "license": "MIT",
   "devDependencies": {
@@ -83,8 +86,7 @@
     "effect": "^3.20.0"
   },
   "peerDependencies": {
-    "@vercel/sandbox": ">=1.0.0",
-    "@daytona/sdk": "^0.164.0"
+    "@vercel/sandbox": ">=1.0.0"
   },
   "peerDependenciesMeta": {
     "@vercel/sandbox": {
@@ -99,5 +101,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "optionalDependencies": {
+    "@daytona/sdk": "^0.171.0"
+  }
 }
